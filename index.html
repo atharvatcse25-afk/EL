@@ -1,0 +1,51 @@
+<html>
+<head>
+    <title>Workshop Registration</title>
+</head>
+<body>
+
+<h2>Workshop Registration</h2>
+
+<form>
+
+    
+    <h3>Personal Details</h3>
+
+    <label>Name:</label><br>
+    <input type="text" name="name"><br><br>
+
+    <label>Email:</label><br>
+    <input type="email" name="email"><br><br>
+ <h3>Payment Method</h3>
+
+    <input type="radio" name="payment" value="card"> Credit Card<br>
+    <input type="radio" name="payment" value="netbanking"> Net Banking<br><br>
+
+   
+    <h4>Credit Card Details</h4>
+
+    <label>Card Number:</label><br>
+    <input type="text" name="card_number"><br><br>
+
+    <label>Expiry Date:</label><br>
+    <input type="month" name="expiry"><br><br>
+
+    <label>CVV:</label><br>
+    <input type="password" name="cvv"><br><br>
+
+    
+    <h4>Net Banking Details</h4><label>Select Bank:</label><br>
+    <select name="bank">
+        <option>State Bank of India</option>
+        <option>HDFC Bank</option>
+        <option>ICICI Bank</option>
+        <option>Axis Bank</option>
+    </select><br><br>
+
+    <!-- Submit -->
+    <input type="submit" value="Register & Pay">
+
+</form>
+
+</body>
+</html>
